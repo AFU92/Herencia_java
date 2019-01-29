@@ -20,8 +20,6 @@ public class App
     	
     	Student student1 = new Student("Andreita", "Fuentes", "109044", "ab.1234",
     			"sexto", "4.2", "80");
-    	
-    	User user1 = new User("Pepito", "Perez", "10905", "a.12345");
     }
     
     

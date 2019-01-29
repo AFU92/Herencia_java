@@ -1,6 +1,6 @@
 package com.afu.herencia.clase;
 
-public class User {
+public abstract class User {
 	
 	protected String name;
 	protected String lastName;
@@ -47,7 +47,11 @@ public class User {
 		this.password = password;
 	}
 	
+	public abstract void resetPassword();
 	
+	public String lastLogin() {
+		return "fecha de ultimo ingreso: 14 de enero de 2019";
+	}
 	
 
 }

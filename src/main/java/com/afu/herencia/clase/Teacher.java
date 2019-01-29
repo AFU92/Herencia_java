@@ -18,6 +18,18 @@ public class Teacher extends User {
 		this.scale = scale;
 	}
 
+	@Override
+	public void resetPassword() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String lastLogin() {
+		// TODO Auto-generated method stub
+		return "El profesor tiene " + super.lastLogin();
+	}
+
 	
 	
 }

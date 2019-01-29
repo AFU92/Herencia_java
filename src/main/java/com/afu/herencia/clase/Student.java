@@ -40,4 +40,10 @@ public class Student extends User {
 		this.approvedCredits = approvedCredits;
 	}
 
+	@Override
+	public void resetPassword() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
